@@ -1,6 +1,21 @@
 # logiops-mxmaster3
 My config for logiops
 
+Install
+```
+sudo apt install build-essential cmake pkg-config libevdev-dev libudev-dev libconfig++-dev libglib2.0-dev
+cd ~/Descargas/
+git clone https://github.com/PixlOne/logiops/tree/main
+cd logiops
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+sudo make install
+sudo systemctl enable --now logid
+
+```
+
 
 ```
 devices: (
