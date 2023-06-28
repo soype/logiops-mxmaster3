@@ -16,6 +16,7 @@ sudo systemctl enable --now logid
 
 ```
 
+logid.cfg
 
 ```
 devices: (
