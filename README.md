@@ -12,6 +12,10 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 sudo make install
+cd ~/Descargas/
+git clone https://github.com/soype/logiops-mxmaster3
+cd logiops-mxmaster3
+sudo cp ./logid.cfg /etc/
 sudo systemctl enable --now logid
 
 ```
